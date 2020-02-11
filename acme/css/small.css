@@ -1,0 +1,259 @@
+body {
+    background-image: url("/acme/images/site/background.jpg");
+    font-family: 'Patrick Hand', cursive;
+}
+
+#content {
+    background-color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+#folder {
+    height: auto;
+    float: right;
+    font-size: 25px;
+}
+
+#folder img {
+    width: 50px;
+}
+
+#logo {
+    width: 200px;
+}
+
+#top {
+    padding: 20px;
+}
+
+
+/* navigation and menu */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #de2226;
+    margin: 0;
+}
+
+li {
+    float: left;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navv li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+hr {
+    width: 97%;
+    height: 2px;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+
+/* footer */
+
+footer {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* Home Page */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .1px;
+    width: 50%;
+}
+
+figure {
+    display: block;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    color: #990033;
+    height: 90%;
+    font-size: 20px;
+}
+
+#rocket {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+figure img {
+    background-color: #808080;
+    height: 120px;
+}
+
+
+/* LOG IN FORM */
+
+#login {
+    padding: 20px;
+}
+
+input[type=email],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+#loginform,
+#register {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#regbutton {
+    width: 50%;
+    background-color: rgb(94, 102, 163);
+    color: white;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#regform {
+    padding: 10px;
+    align-content: center;
+}
+
+input:required:invalid,
+input:focus:invalid {
+    background: #fffdd0;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+input:required:valid {
+    background: #FFEBCD;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#prod-display {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#prod-display li {
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+}
+
+#prod-display li img {
+    width: 100%;
+    height: 200px;
+}
+
+#detail-display img {
+    max-width: 500px;
+    max-width: 200px;
+}

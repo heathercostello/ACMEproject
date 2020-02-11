@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery {
+        font-size: 20px;
+    }
+    header {
+        font-size: 5px;
+    }
+    .text-black {
+        font-size: 10px;
+    }
+    body {
+        max-width: 550px;
+    }
+    .text-block {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(50%, -50%);
+        font-size: xx-small;
+        color: #990033;
+    }
+    #actionbtn {
+        width: 100px;
+    }
+    figure img {
+        height: 80px;
+    }
+    input #button {
+        color: red;
+    }
+    #prod-display {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    #prod-display li {
+        max-width: 200px;
+        flex: 1 0 auto;
+        text-align: center;
+        max-height: 400px;
+    }
+}
